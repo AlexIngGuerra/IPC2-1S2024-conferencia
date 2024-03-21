@@ -24,6 +24,3 @@ class Tabla:
         cadena = cadena + "</table>\n>]\n"
         cadena = cadena + "\n}"
         return cadena
-    
-tabla = Tabla()
-print(tabla.getDot())
