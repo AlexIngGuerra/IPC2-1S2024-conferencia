@@ -22,3 +22,6 @@ def graficarListaSimple():
     for i in range(0,5):
         lista.insertar(i)
     generar(lista.getDot(), "./graficas/listasimple.svg")
+
+def generarTabla():
+    print("Generando tabla")
